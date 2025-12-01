@@ -5,8 +5,16 @@ import (
 	"testing"
 )
 
-const sampleInput = `
-TODO: Paste sample input here
+const sampleInput = `L68
+L30
+R48
+L5
+R60
+L55
+L1
+L99
+R14
+L82
 `
 
 func TestPart1(t *testing.T) {
@@ -16,7 +24,7 @@ func TestPart1(t *testing.T) {
 		t.Fatalf("Part1 returned error: %v", err)
 	}
 
-	expected := "TODO: Put expected result here"
+	expected := "3"
 	if result != expected {
 		t.Errorf("Part1 = %v, want %v", result, expected)
 	}
@@ -29,7 +37,7 @@ func TestPart2(t *testing.T) {
 		t.Fatalf("Part2 returned error: %v", err)
 	}
 
-	expected := "TODO: Put expected result here"
+	expected := "6"
 	if result != expected {
 		t.Errorf("Part2 = %v, want %v", result, expected)
 	}
